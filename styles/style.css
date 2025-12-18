@@ -3,14 +3,13 @@
 .page {
   object-fit: contain;
   font: 400 var(--text-size) var(--main-font, sans-serif);
+  background-image: var(--bg-image); 
   background-color: var(--bg-color);
-  background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   inline-size: 100%;
   block-size: 100%;
-  scrollbar-width: auto;
 }
 
 .header {
@@ -21,6 +20,7 @@
   height: 100vh;
   padding: 0px 10px;
   min-block-size: 668px;
+  overflow: hidden;
 }
 
 /* Стили для уголков */
