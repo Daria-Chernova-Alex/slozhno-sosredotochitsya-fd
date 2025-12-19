@@ -4,15 +4,16 @@
   object-fit: contain;
   font-size: var(--description-text-weight, 400);
   font-family: var(--main-font, sans-serif);
-  background-image: var(--bg-image); 
+  background-image: var(--bg-image);
   background-color: var(--bg-color);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  background-size: cover;
   inline-size: 100%;
   block-size: 100%;
   /* scrollbar-width: auto;*/
-} 
+}
 
 .header {
   position: relative;
@@ -23,7 +24,7 @@
   padding: 0px 10px;
   min-block-size: 668px;
   overflow: hidden;
-} 
+}
 
 /* Стили для уголков */
 
