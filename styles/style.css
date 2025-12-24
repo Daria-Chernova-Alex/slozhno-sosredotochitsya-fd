@@ -362,8 +362,4 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
-
-  .text-section__type-secondary .text-section__texts-item-description {
-    min-width: 315px;
-  }
 }
